@@ -1,17 +1,28 @@
 # Garv — Portfolio website
 
-A static, responsive portfolio website made with plain HTML, CSS and browser JavaScript. The contact form uses Formspree, so no backend or package installation is needed.
+A responsive portfolio website built with HTML, CSS, and browser JavaScript.
+The contact form uses Formspree, so this site does not need its own backend.
 
-## Open the website
+## Open or publish the website
 
-Open `index.html` in a browser, or upload the files in this folder to the root of a GitHub repository and enable GitHub Pages in the repository settings.
+Open `index.html` in a browser to view the site. To publish it with GitHub Pages,
+upload the website files to the root of your repository and enable GitHub Pages
+in the repository settings.
 
 ## Contact form
 
-The form submits to the Formspree endpoint configured in `index.html`. Submissions are handled by Formspree and delivered according to the destination email and settings in the Formspree dashboard.
+The form sends messages to the Formspree endpoint in `index.html`. Formspree
+handles delivery according to the email address and settings in your Formspree
+dashboard.
+
+## Your photo
+
+The About section uses `mine2.jpg`. Keep this image in the same folder as
+`index.html` when publishing the website.
 
 ## Files
 
-- `index.html` — page content and form
-- `styles.css` — layout, components, colors, and responsive styles
-- `main.js` — mobile navigation and an honest form status
+- `index.html` — page content, navigation, social links, and contact form
+- `styles.css` — colors, layout, page sections, and mobile styles
+- `main.js` — mobile navigation, current year, and contact form behavior
+- `mine2.jpg` — photo used in the About section
